@@ -1,0 +1,154 @@
+body{
+    background-color: #FFFFFF;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    background-image: url(/Airline%20in%20cloud.JPG);
+    background-position: center center;
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+}
+
+.beginning:before{
+    content: " ";
+    z-index: 1;
+    display: block;
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.beginning * {
+    position: relative;
+}
+
+#header-text {
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    top: 25%;
+    width: 60%;
+    z-index: 2 !important;
+    font-weight: bold;
+}
+
+h1{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 70px;
+    font-weight: 400;
+    line-height: 60px;
+    margin: 0px;
+}
+
+h2{
+    color: #ffffff;
+    font-family: 'Open sans', sans-serif;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 100;
+}
+
+h3{
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+h4{
+    color: #cccccc;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+p{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 24px;
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+}
+
+.partnership{
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    border-bottom: 1px solid #eeeeee;
+    position: relative;
+    background-color: white;
+    z-index: 3;
+}
+
+.partnership h4{
+    color: black;
+}
+
+.partnership img{
+    position: relative;
+    top: 6%;
+}
+
+.gbg{
+    padding-left: 6px;
+}
+
+.main{
+    background: url(Dark%20luxury.jpg);
+    margin: 0px;
+    padding: 40px;
+}
+
+.values{
+    margin: 40px auto;
+    width: 60%;
+}
+
+.value_prop{
+    border: 1px solid #ffffff;
+    padding: 40px 0px;
+    margin: 5px 0px;
+    text-align: center;
+}
+
+.value_prop h2{
+    font-family: 'Quicksand', sans-serif;
+    font-size 24px;
+}
+
+.value_prop li{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 24px;
+    margin: 0 auto;
+    text-align: left;
+    width: 60%;
+}
+
+.bottom{
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+}
+
+.bottom span a:hover{
+    text-decoration: underline;
+}
+
+.bottom span{
+    font-family: 'Open Sans', sans-serif;
+}
